@@ -1,0 +1,15 @@
+{
+  "name": "csp-example",
+  "version": "1.0.0",
+  "description": "example of csp with webworkers",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify main.js -o bundle.js"
+  },
+  "author": "Mariia Paniutina",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "serve-static": "^1.11.1"
+  }
+}
